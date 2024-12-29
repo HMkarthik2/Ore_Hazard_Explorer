@@ -127,36 +127,36 @@ body, html {
 
 .applications-content {
   display: flex;
-  justify-content: center; /* Center align the content */
-  align-items: center; /* Vertically center the image and text */
+  justify-content: center;
+  align-items: center; 
   margin-top: 20px;
 }
 
 .applications-image-container {
-  width: 40%; /* Adjust width as needed to match the mission section */
-  margin-right: 20px; /* Increased space between image and text */
+  width: 40%; 
+  margin-right: 20px; 
 }
 
 .applications-image {
-  width: 100%; /* Ensure the image is responsive */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: auto; 
 }
 
 .applications-heading-text {
-  width: 50%; /* Adjust the width to match the mission section */
+  width: 50%; 
   font-size: 1.3rem;
 }
 
 .applications-heading {
-  font-size: 2.5rem; /* Same font size as the mission section */
-  color: #0d0d0d; /* Color for the heading, adjust as needed */
+  font-size: 2.5rem; 
+  color: #0d0d0d; 
 }
 
 .applications-text {
   margin-top: 20px;
-  font-size: 3rem; /* Match font size with the mission section */
-  line-height: 1.8; /* Consistent line height */
-  color: rgba(122, 139, 139, 0.883); /* Same text color */
+  font-size: 3rem; 
+  line-height: 1.8;
+  color: rgba(122, 139, 139, 0.883); 
 }
 
 
@@ -170,59 +170,59 @@ body, html {
 
 .footer-content {
   display: flex;
-  justify-content: space-between; /* Space between left and right content */
-  max-width: 1200px; /* Set a max width for the footer */
-  margin: 0 auto; /* Center the footer content */
+  justify-content: space-between; 
+  max-width: 1200px;
+  margin: 0 auto; 
   height: 350px;
   color: #0d0d0d;
 }
 
 .footer-left {
-  margin-left: 40px; /* Space from the left margin */
-  width: 45%; /* Adjust as needed */
+  margin-left: 40px; 
+  width: 45%; 
 }
 
 .footer-right {
-  width: 45%; /* Adjust as needed */
+  width: 45%; 
 }
 
 .footer-left h3 {
   padding: 25px;
-  text-align: center; /* Center the ABOUT heading */
+  text-align: center;
 }
 
 .footer-left p {
-  margin: 5px 0; /* Adjust paragraph spacing */
+  margin: 5px 0;
 }
 
 .footer-right h3 {
-  text-align: left; /* Align Team Members heading to the left */
+  text-align: left; 
 }
 
 .footer-right ul { 
-  padding: 25px; /* Remove padding from the list */
+  padding: 25px; 
 }
 
 .footer-right li {
-  margin: 5px 0; /* Space between list items */
+  margin: 5px 0;
   line-height: 1.8;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    flex-direction: column; 
     align-items: center;
   }
 
   .navbar button {
-    width: 90%; /* Stretch buttons to full width */
-    max-width: 300px; /* Restrict maximum width */
+    width: 90%; 
+    max-width: 300px; 
     text-align: center;
   }
 
   .site-heading {
-    font-size: 2.5rem; /* Adjust heading size for smaller screens */
+    font-size: 2.5rem; 
   }
   .overlay-text {
     font-size: 3rem;
@@ -239,61 +239,61 @@ body, html {
   }
 
   .mission-content {
-    flex-direction: column; /* Stack content vertically */
-    text-align: center; /* Center text for better readability */
+    flex-direction: column; 
+    text-align: center; 
   }
 
   .mission-image {
-    width: 80%; /* Adjust image width for smaller screens */
+    width: 80%; 
     margin-right: 0;
-    margin-bottom: 20px; /* Add spacing below the image */
+    margin-bottom: 20px; 
   }
 
   .mission-content p {
-    width: 90%; /* Adjust paragraph width for smaller screens */
+    width: 90%; 
   }
 
   .mission-heading {
-    font-size: 2rem; /* Reduce heading size */
+    font-size: 2rem; 
   }
 
   .applications-content {
-    flex-direction: column; /* Stack image and text vertically */
+    flex-direction: column; 
     text-align: center;
   }
 
   .applications-image-container {
-    width: 80%; /* Adjust image width for smaller screens */
+    width: 80%; 
     margin-right: 0;
-    margin-bottom: 20px; /* Add spacing below the image */
+    margin-bottom: 20px; 
   }
 
   .applications-heading-text {
-    width: 90%; /* Adjust text width for smaller screens */
+    width: 90%; 
   }
 
   .applications-heading {
-    font-size: 2rem; /* Reduce heading size for tablets */
+    font-size: 2rem; 
   }
 
   .applications-text {
-    font-size: 1rem; /* Adjust text size */
+    font-size: 1rem; 
   }
 
   .footer-content {
-    flex-direction: column; /* Stack left and right content vertically */
-    align-items: center; /* Center align content */
-    height: auto; /* Remove fixed height for better flexibility */
+    flex-direction: column; 
+    align-items: center; 
+    height: auto; 
   }
 
   .footer-left, .footer-right {
-    width: 90%; /* Adjust width to take up more space on smaller screens */
-    text-align: center; /* Center-align text for readability */
-    margin-bottom: 20px; /* Add space between sections */
+    width: 90%; 
+    text-align: center; 
+    margin-bottom: 20px;
   }
 
   .footer-right h3, .footer-left h3 {
-    text-align: center; /* Center headings on smaller screens */
+    text-align: center; 
   }
 }
 
@@ -303,52 +303,52 @@ body, html {
   }
 
   .navbar button {
-    padding: 8px 15px; /* Smaller padding for very small screens */
-    font-size: 0.9rem; /* Adjust font size */
+    padding: 8px 15px; 
+    font-size: 0.9rem; 
   }
 
   .site-heading {
-    font-size: 2rem; /* Further reduce heading size */
+    font-size: 2rem; 
   }
   .mission-heading {
-    font-size: 1.8rem; /* Further reduce heading size */
+    font-size: 1.8rem; 
   }
 
   .mission-content p {
-    font-size: 1rem; /* Reduce text size for very small screens */
+    font-size: 1rem; 
   }
 
   .mission-section {
-    padding: 30px; /* Reduce padding for smaller screens */
+    padding: 30px; 
   }
 
   .overlay-text {
     font-size: 2.5rem;
   }
   .applications-heading {
-    font-size: 1.8rem; /* Further reduce heading size for mobile */
+    font-size: 1.8rem; /
   }
 
   .applications-text {
-    font-size: 0.9rem; /* Reduce text size for very small screens */
+    font-size: 0.9rem; 
   }
 
   .applications-section {
-    padding: 30px; /* Reduce padding for mobile devices */
+    padding: 30px;
   }
   .footer-section {
-    padding: 30px 10px; /* Reduce padding for very small screens */
+    padding: 30px 10px;
   }
 
   .footer-left h3, .footer-right h3 {
-    font-size: 1.2rem; /* Adjust heading size */
+    font-size: 1.2rem; 
   }
 
   .footer-right li {
-    font-size: 0.9rem; /* Reduce font size for list items */
+    font-size: 0.9rem; 
   }
 
   .footer-left p {
-    font-size: 0.9rem; /* Adjust paragraph font size */
+    font-size: 0.9rem; 
   }
 }
