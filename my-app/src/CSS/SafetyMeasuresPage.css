@@ -1,0 +1,161 @@
+/* Container for the whole page */
+.safety-measures-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Background Section Styling */
+.background-section {
+    background-image: url('../images/SafetyMeasures_BackgroundImage.png'); /* Update with the actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+ .Blue{
+    color: rgb(8, 8, 135);
+ }
+  .text-content {
+    color: black; /* Use normal black text */
+    font-size: 18px;
+    max-width: 800px; /* Set a maximum width for uniform text lines */
+    margin: 0 auto; /* Center the text content */
+  }
+  
+  .text-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .gas-levels {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .gas-levels li {
+    margin-bottom: 20px; /* Increased space between the points */
+    font-size: 18px;
+    line-height: 1.5; /* Optional: improves readability */
+  }
+  
+  
+  /* Safety Measures Section */
+ .Bold{
+    font-weight: bolder;
+ }
+  .safety-section {
+    padding: 50px;
+    background-color: #333;
+    color: antiquewhite;
+    text-align: center;
+  }
+  
+  .safety-heading {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  
+  .methane-section, .h2s-section, .co-section, .general-section {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-bottom: 40px; /* Added some margin between sections */
+  }
+  
+  .methane-heading, .h2s-heading, .co-heading, .general-heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding-left: 40px; /* Space from the left margin */
+  }
+  
+  .methane-points, .h2s-points, .co-points, .general-points {
+    list-style-type: disc;
+    padding-left: 60px; /* Indentation for points */
+  }
+  
+  .methane-points li, .h2s-points li, .co-points li, .general-points li {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+
+  /* Responsive Design */
+@media (max-width: 768px) {
+  .background-section {
+    height: auto; /* Allow the height to adjust dynamically */
+    padding: 20px;
+  }
+
+  .text-content {
+    font-size: 16px; /* Reduce font size for smaller screens */
+    max-width: 90%; /* Adjust width for tablets */
+    padding: 15px;
+  }
+
+  .safety-section {
+    padding: 30px;
+  }
+
+  .safety-heading {
+    font-size: 22px; /* Reduce heading size */
+  }
+
+  .methane-section, .h2s-section, .co-section, .general-section {
+    max-width: 90%; /* Adjust width for tablets */
+  }
+
+  .methane-heading, .h2s-heading, .co-heading, .general-heading {
+    font-size: 20px; /* Reduce heading size */
+    padding-left: 20px;
+  }
+
+  .methane-points, .h2s-points, .co-points, .general-points {
+    padding-left: 30px; /* Reduce indentation */
+  }
+
+  .methane-points li, .h2s-points li, .co-points li, .general-points li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .background-section {
+    padding: 15px;
+  }
+
+  .text-content {
+    font-size: 14px; /* Further reduce font size for mobile screens */
+    padding: 10px;
+  }
+
+  .safety-section {
+    padding: 20px;
+  }
+
+  .safety-heading {
+    font-size: 20px;
+  }
+
+  .methane-section, .h2s-section, .co-section, .general-section {
+    max-width: 100%; /* Use full width for mobile screens */
+    padding: 10px; /* Add padding for better spacing */
+  }
+
+  .methane-heading, .h2s-heading, .co-heading, .general-heading {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .methane-points, .h2s-points, .co-points, .general-points {
+    padding-left: 20px;
+  }
+
+  .methane-points li, .h2s-points li, .co-points li, .general-points li {
+    font-size: 14px;
+  }
+}
+  

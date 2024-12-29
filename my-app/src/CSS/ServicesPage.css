@@ -1,0 +1,42 @@
+/* General Container */
+.services-page-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title Section */
+  .services-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .services-description {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Speedometers Section */
+  .speedometers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .speedometer-box {
+    flex: 1 1 calc(33% - 40px); /* Adjusts to 3 columns */
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .speedometer-box {
+      flex: 1 1 100%; /* Full width for small screens */
+      max-width: 100%;
+    }
+  }
+  
